@@ -69,8 +69,8 @@
         </div>
         <div class="col-lg-6 text-end">
             <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
-                <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
-                <span class="fs-5 fw-bold">+012 345 6789</span>
+                <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Позвоните нам:</span>
+                <span class="fs-5 fw-bold">+994 50 566 76 67</span>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
     <a href="index.html" class="navbar-brand ps-5 me-0">
-        <h1 class="text-white m-0">Peeling</h1>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="">
     </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
