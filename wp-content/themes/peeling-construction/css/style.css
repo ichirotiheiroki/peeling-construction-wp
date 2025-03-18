@@ -116,7 +116,7 @@ h6,
 
 .navbar .navbar-brand {
     position: relative;
-    padding-right: 50px;
+    padding: 0 50px;
     height: 75px;
     display: flex;
     align-items: center;
@@ -707,6 +707,10 @@ h6,
 
 
 @media (max-width: 768px) {
+    .navbar .navbar-brand{
+        padding: 0 20px;
+    }
+
     .navbar-logo{
         width: 175px;
     }
