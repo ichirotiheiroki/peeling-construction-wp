@@ -80,7 +80,7 @@
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="/#" class="navbar-brand ps-5 me-0">
+    <a href="/#" class="navbar-brand  ">
         <img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="">
     </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
