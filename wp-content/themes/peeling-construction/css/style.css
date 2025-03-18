@@ -704,6 +704,9 @@ h6,
 .navbar-logo{
     width: 275px;
 }
+.navbar-logo-mobile{
+    display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -712,6 +715,9 @@ h6,
     }
 
     .navbar-logo{
-        width: 175px;
+        display: none;
+    }
+    .navbar-logo-mobile{
+        display: block;
     }
 }
