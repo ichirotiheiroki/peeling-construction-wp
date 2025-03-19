@@ -97,7 +97,7 @@
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        autoplayTimeout:3000,
+        autoplayTimeout:2000,
         center: true,
         dots: false,
         loop: true,
