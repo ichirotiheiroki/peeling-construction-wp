@@ -710,7 +710,7 @@ h6,
 }
 .navbar-logo-mobile{
     display: none;
-    width: 65px;
+    width: 160px;
 }
 
 .top-bar-bg{
@@ -720,7 +720,7 @@ h6,
 
 @media (max-width: 768px) {
     .navbar .navbar-brand{
-        padding: 0 100px 0 20px;
+        padding: 0 50px 0 20px;
     }
 
     .navbar-logo{
