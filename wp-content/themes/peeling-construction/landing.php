@@ -89,8 +89,8 @@ get_header();
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
                             <h1 class="display-2">7</h1>
-                            <h5 class="text-white">Лет</h5>
-                            <h5 class="text-white">Опыта в индустрии</h5>
+                            <h5 class="text-white">Лет опыта</h5>
+                            <h5 class="text-white">в сфере</h5>
                         </div>
                         <div class="ms-4">
                             <p><i class="fa fa-check text-primary me-2"></i>Строительно-монтажные работы</p>
@@ -143,8 +143,8 @@ get_header();
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
                 <div class="text-center border p-5">
                     <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">25</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Years Experience</span>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">7</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Лет Опыта</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
@@ -385,7 +385,7 @@ get_header();
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!--  <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
@@ -463,7 +463,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Team End -->
 
 
