@@ -22,7 +22,6 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">7 Лет опыта</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">
                                         Благоустройство и инженерные работы
                                     </h1>
@@ -37,7 +36,6 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">7 Лет опыта</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">Ремонтно- строительные услуги</h1>
                                 </div>
                             </div>
@@ -82,11 +80,6 @@ get_header();
 
                     </p>
                     <div class="d-flex align-items-center mb-4">
-                        <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">7</h1>
-                            <h5 class="text-white">Лет опыта</h5>
-                            <h5 class="text-white">в сфере</h5>
-                        </div>
                         <div class="ms-4">
                             <p><i class="fa fa-check text-primary me-2"></i>Строительно-монтажные работы</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Ремонтно-строительные работы</p>
@@ -208,22 +201,22 @@ get_header();
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">135</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Team Members</span>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">148</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Сотрудников</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center border p-5">
                     <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">957</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Happy Clients</span>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">57</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Довольных клиентов</span>
                 </div>
             </div>
             <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
                 <div class="text-center border p-5">
                     <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">1839</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Projects Done</span>
+                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">82</h1>
+                    <span class="fs-5 fw-semi-bold text-white">Завершённых проектов</span>
                 </div>
             </div>
         </div>
