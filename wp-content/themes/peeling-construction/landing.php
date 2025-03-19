@@ -225,7 +225,7 @@ get_header();
 
 
     <!-- Features Start -->
-    <div class="container-xxl py-5">
+    <div id="service" class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -322,76 +322,76 @@ get_header();
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Центр отдыха "Хазри"</h5>
+                    <h5 class="text-white mb-0 z-3">Центр отдыха "Хазри"</h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Шоколадная Фабрика "Гала"
+                    <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Детский сад № 319
+                    <h5 class="text-white mb-0 z-3">Детский сад № 319
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Работы по реконструкции в Лачыне
+                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в Лачыне
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Ландшафт и экстерьеры
+                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Ландшафт и экстерьеры
+                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0 z-3">Ландшафт и экстерьеры
+                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
