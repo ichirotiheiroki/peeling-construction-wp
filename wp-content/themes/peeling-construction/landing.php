@@ -361,6 +361,41 @@ get_header();
                     </h5>
                 </div>
             </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Си Бриз Фанкартинг
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Детский сад № 319
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Рендеры
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Рендеры
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Работы по реконструкции в Лачыне
+                    </h5>
+                </div>
+            </a>
         </div>
     </div>
     <!-- Project End -->
