@@ -15,7 +15,7 @@
 <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5 justify-content-between">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <h5 class="text-white mb-4">Наш офис</h5>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
                     MTK Plaza mərtəbə 3
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-6 col-md-6">
                 <h5 class="text-white mb-4">Новостная рассылка</h5>
                 <p>Подпишитесь на наши новостные обновления</p>
                 <div class="position-relative w-100">
