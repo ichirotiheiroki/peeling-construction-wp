@@ -642,8 +642,8 @@ h6,
 }
 
 .testimonial-carousel .testimonial-img img {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: auto;
 }
 
 .testimonial-carousel .testimonial-img .btn-square {
