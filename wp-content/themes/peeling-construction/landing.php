@@ -337,44 +337,28 @@ get_header();
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-primary mb-2">Our Projects</p>
-            <h1 class="display-5 text-white mb-5">See What We Have Completed Recently</h1>
+            <p class="fw-medium text-uppercase text-primary mb-2">Наши проекты</p>
+            <h1 class="display-5 text-white mb-5">Проекты выполненные нами</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-1.jpg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Auto Engineering</h5>
+                    <h5 class="text-primary mb-0">Центр отдыха "Хазри"</h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-2.jpg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Civil Engineering</h5>
+                    <h5 class="text-primary mb-0">Гала Шоколадная Фабрика Работы по сносу и фундаменту
+                    </h5>
                 </div>
             </a>
             <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-3.jpg" alt="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Gas Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-4.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Power Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-5.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Energy Engineering</h5>
-                </div>
-            </a>
-            <a class="project-item" href="">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/project-6.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-primary mb-0">Water Engineering</h5>
+                    <h5 class="text-primary mb-0">Си Бриз Фанкартинг
+                    </h5>
                 </div>
             </a>
         </div>
