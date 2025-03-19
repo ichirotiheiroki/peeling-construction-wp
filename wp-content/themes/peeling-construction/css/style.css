@@ -713,6 +713,10 @@ h6,
     width: 65px;
 }
 
+.top-bar-bg{
+    background-color: var(--primary);
+}
+
 
 @media (max-width: 768px) {
     .navbar .navbar-brand{
