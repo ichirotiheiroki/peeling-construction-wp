@@ -132,6 +132,69 @@ get_header();
     <!-- About End -->
 
 
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-5 mb-5">Наши партнёры</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/1.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/2.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/3.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/4.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/7.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/8.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/9.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/10.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
@@ -500,67 +563,6 @@ get_header();
     <!-- Team End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-5 mb-5">Наши референсы</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/1.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/2.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/3.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/4.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/7.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/8.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/9.png">
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/10.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
 
