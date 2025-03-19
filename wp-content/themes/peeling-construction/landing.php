@@ -24,7 +24,7 @@ get_header();
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">7 Лет опыта</p>
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">
-                                        Благоустройство и инженерные работы.
+                                        Благоустройство и инженерные работы
                                     </h1>
                                 </div>
                             </div>
