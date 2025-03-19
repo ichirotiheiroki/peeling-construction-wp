@@ -22,12 +22,10 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">25 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Ремонтно- строительные услуги
-
+                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">7 Лет опыта</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">
+                                        Благоустройство и инженерные работы.
                                     </h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -39,11 +37,8 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">25 Years
-                                        of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">The Best Reliable
-                                        Industry Solution</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">7 Лет опыта</p>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Ремонтно- строительные услуги</h1>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +75,7 @@ get_header();
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2">О нас
                     </p>
-                    <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
+                    <h1 class="display-5 mb-4">Мы Профессионалы Своего Дела</h1>
                     <p class="mb-4">Компания Peeling Group LLC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства.
                         Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные, кровельные и фасадные работы
                         и т. д., все из которых выполняются нашей компанией профессионально.
