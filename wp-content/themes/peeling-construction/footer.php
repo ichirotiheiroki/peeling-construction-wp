@@ -16,10 +16,13 @@
     <div class="container py-5">
         <div class="row g-5 justify-content-between">
             <div class="col-lg-3 col-md-6">
-                <h5 class="text-white mb-4">Our Office</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <h5 class="text-white mb-4">Наш офис</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
+                    MTK Plaza mərtəbə 3
+                </p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
+                </p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@peeling.az</p>
                 <div class="d-flex pt-3">
                     <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
                                 class="fab fa-twitter"></i></a>
@@ -33,13 +36,13 @@
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <h5 class="text-white mb-4">Newsletter</h5>
-                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <h5 class="text-white mb-4">Новостная рассылка</h5>
+                <p>Подпишитесь на наши новостные обновления</p>
                 <div class="position-relative w-100">
                     <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                           placeholder="Your email">
+                           placeholder="Введите почтовый адрес">
                     <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Отправить</button>
                 </div>
             </div>
         </div>

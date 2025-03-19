@@ -70,7 +70,8 @@
         <div class="col-lg-6 text-end">
             <div class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                 <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Позвоните нам:</span>
-                <span class="fs-5 fw-bold">+994 50 566 76 67</span>
+                <span class="fs-5 fw-bold">+994 55 254 44 45
+</span>
             </div>
         </div>
     </div>
