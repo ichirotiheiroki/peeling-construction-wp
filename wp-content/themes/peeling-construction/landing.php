@@ -190,11 +190,9 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Why Choosing Us!</p>
-                    <h1 class="display-5 mb-4">Few Reasons Why People Choosing Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                    </p>
+                    <p class="fw-medium text-uppercase text-primary mb-2">Наши услуги</p>
+                    <h1 class="display-5 mb-4">Нашей компанией относится к предоставляемым услугам:
+                    </h1>
                     <div class="row gy-4">
                         <div class="col-12">
                             <div class="d-flex">
@@ -471,53 +469,57 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Testimonial</p>
-                <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+                <h1 class="display-5 mb-5">Наши референсы</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/testimonial-1.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/1.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/testimonial-2.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/2.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid rounded-circle mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/testimonial-3.jpg">
-                        <div class="btn-square bg-primary rounded-circle">
-                            <i class="fa fa-quote-left text-white"></i>
-                        </div>
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/3.png">
                     </div>
-                    <div class="testimonial-text text-center rounded p-4">
-                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna
-                            ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea
-                            clita.</p>
-                        <h5 class="mb-1">Client Name</h5>
-                        <span class="fst-italic">Profession</span>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/4.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/7.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/8.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/9.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/10.png">
                     </div>
                 </div>
             </div>
