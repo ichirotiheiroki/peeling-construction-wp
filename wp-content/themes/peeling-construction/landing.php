@@ -350,7 +350,7 @@ get_header();
             <a class="project-item" href="">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-primary mb-0">Гала Шоколадная Фабрика Работы по сносу и фундаменту
+                    <h5 class="text-primary mb-0">Шоколадная Фабрика "Гала"
                     </h5>
                 </div>
             </a>
