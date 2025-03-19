@@ -16,7 +16,7 @@ get_header();
     <div class="container-fluid px-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item ">
                     <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
@@ -30,13 +30,13 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Ремонтно- строительные услуги</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Строительно-ремонтные услуги</h1>
                                 </div>
                             </div>
                         </div>
