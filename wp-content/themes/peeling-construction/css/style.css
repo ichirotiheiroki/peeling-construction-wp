@@ -664,6 +664,10 @@ h6,
     transform: scale(1);
 }
 
+.z-3{
+    z-index: 3;
+}
+
 
 /*** Footer ***/
 .footer {
