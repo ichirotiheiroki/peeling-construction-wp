@@ -396,6 +396,27 @@ get_header();
                     </h5>
                 </div>
             </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Ландшафт и экстерьеры
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Ландшафт и экстерьеры
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item" href="">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-primary mb-0">Ландшафт и экстерьеры
+                    </h5>
+                </div>
+            </a>
         </div>
     </div>
     <!-- Project End -->
