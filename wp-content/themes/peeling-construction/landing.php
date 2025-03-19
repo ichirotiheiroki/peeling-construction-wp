@@ -24,7 +24,8 @@ get_header();
                                 <div class="col-lg-10 text-start">
                                     <p class="fs-5 fw-medium text-white text-uppercase animated slideInRight">25 Years
                                         of Working Experience</p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">tikinti-T
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Ремонтно- строительные услуги
+
                                     </h1>
                                     <a href="" class="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 </div>
@@ -63,7 +64,7 @@ get_header();
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div id="about" class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6">
@@ -77,24 +78,32 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">About Us</p>
+                    <p class="fw-medium text-uppercase text-primary mb-2">О нас
+                    </p>
                     <h1 class="display-5 mb-4">We Are Leader In Industrial Market</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    <p class="mb-4">Компания Peeling Group LLC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства.
+                        Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные, кровельные и фасадные работы
+                        и т. д., все из которых выполняются нашей компанией профессионально.
+
                     </p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="flex-shrink-0 bg-primary p-4">
-                            <h1 class="display-2">25</h1>
-                            <h5 class="text-white">Years of</h5>
-                            <h5 class="text-white">Experience</h5>
+                            <h1 class="display-2">7</h1>
+                            <h5 class="text-white">Лет</h5>
+                            <h5 class="text-white">Опыта в индустрии</h5>
                         </div>
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Power & Energy</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Civil Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Chemical Engineering</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Mechanical Engineering</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Oil & Gas Engineering</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Строительно-монтажные работы</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Ремонтно-строительные работы</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Благоустройство и реконструкция зданий</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Работы по кондиционированию и вентиляции</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Отделочные работы</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Гидроизоляционные работы</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Благоустройство прилегающих территорий</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Строительство частных домов, квартир и офисов</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Комплексное выполнение ремонтно-строительных работ</p>
                         </div>
+
                     </div>
                     <div class="row pt-2">
                         <div class="col-sm-6">
@@ -103,8 +112,8 @@ get_header();
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Email us</p>
-                                    <h5 class="mb-0">info@example.com</h5>
+                                    <p class="mb-2">Напишите нам</p>
+                                    <a class="mb-0" href="mailto:info@peeling.az">info@peeling.az</a>
                                 </div>
                             </div>
                         </div>
@@ -114,8 +123,9 @@ get_header();
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Call us</p>
-                                    <h5 class="mb-0">+012 345 6789</h5>
+                                    <p class="mb-2">Позвоните нам</p>
+                                    <a class="mb-0" href="tel:+994552544445">+994 55 254 4445
+                                    </a>
                                 </div>
                             </div>
                         </div>
