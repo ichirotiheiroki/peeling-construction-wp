@@ -100,7 +100,6 @@
         center: true,
         dots: false,
         loop: true,
-        nav : true,
 
         responsive: {
             0:{
