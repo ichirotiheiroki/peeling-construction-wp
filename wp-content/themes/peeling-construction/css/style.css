@@ -117,7 +117,7 @@ h6,
 .navbar .navbar-brand {
     position: relative;
     padding: 0 50px;
-    height: 75px;
+    height: 95px;
     display: flex;
     align-items: center;
     /*background: var(--dark);*/
@@ -710,7 +710,7 @@ h6,
 }
 .navbar-logo-mobile{
     display: none;
-    width: 160px;
+    width: 120px;
 }
 
 .top-bar-bg{
