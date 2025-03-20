@@ -42,7 +42,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css?ver=13" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=14" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=15" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -82,8 +82,8 @@
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
     <a href="/#" class="navbar-brand  ">
-        <img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="">
-        <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri(); ?>/img/logo-vector.svg" alt="">
+        <img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg?ver=15" alt="">
+        <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri(); ?>/img/logo-vector.svg?ver=15" alt="">
     </a>
     <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
