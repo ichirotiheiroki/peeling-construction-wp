@@ -63,10 +63,10 @@ get_header();
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-1.jpg">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-1.jpg?ver=15">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-2.jpg">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-2.jpg?ver=15">
                         </div>
                     </div>
                 </div>
