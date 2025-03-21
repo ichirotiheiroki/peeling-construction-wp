@@ -25,6 +25,7 @@
                     <i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
                 </a>
                 <a class="mb-2 text-white" href="mailto:info@peeling.az">
+
                     <i class="fa fa-envelope me-3"></i>info@peeling.az</a>
 <!--                <div class="d-flex pt-3">-->
 <!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
@@ -39,6 +40,7 @@
             </div>
 
             <div class="col-lg-6 flex flex-column col-md-6">
+
                 <h5 class="text-white mb-4">Новостная рассылка</h5>
                 <p>Подпишитесь на наши новостные обновления</p>
                 <div class="position-relative w-100">
