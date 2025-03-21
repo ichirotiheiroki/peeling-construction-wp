@@ -409,6 +409,13 @@ get_header();
                     </h5>
                 </div>
             </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/14.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Строительство жилых и нежилых высокоэтажных зданий
+                    </h5>
+                </div>
+            </a>
         </div>
     </div>
     <!-- Project End -->
