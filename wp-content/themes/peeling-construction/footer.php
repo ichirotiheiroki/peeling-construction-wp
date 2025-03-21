@@ -23,16 +23,16 @@
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
                 </p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@peeling.az</p>
-                <div class="d-flex pt-3">
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                </div>
+<!--                <div class="d-flex pt-3">-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-twitter"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-facebook-f"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-youtube"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-linkedin-in"></i></a>-->
+<!--                </div>-->
             </div>
 
             <div class="col-lg-6 col-md-6">
