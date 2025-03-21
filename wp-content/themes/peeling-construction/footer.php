@@ -38,7 +38,7 @@
 <!--                </div>-->
             </div>
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 flex flex-column col-md-6">
                 <h5 class="text-white mb-4">Новостная рассылка</h5>
                 <p>Подпишитесь на наши новостные обновления</p>
                 <div class="position-relative w-100">
