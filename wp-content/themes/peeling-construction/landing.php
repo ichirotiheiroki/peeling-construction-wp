@@ -356,14 +356,14 @@ get_header();
             <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
             <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
@@ -413,6 +413,13 @@ get_header();
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/14.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Строительство жилых и нежилых высокоэтажных зданий
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/15.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Установка систем кондиционирования и вентиляции
                     </h5>
                 </div>
             </a>
