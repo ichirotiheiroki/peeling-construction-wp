@@ -395,6 +395,20 @@ get_header();
                     </h5>
                 </div>
             </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/12.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Реставрация фасадов
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/13.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Монтаж и демонтаж строительных лесов
+                    </h5>
+                </div>
+            </a>
         </div>
     </div>
     <!-- Project End -->
