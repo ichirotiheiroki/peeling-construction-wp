@@ -375,7 +375,7 @@ get_header();
             <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в Лачыне
+                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в городе "Лачын"
                     </h5>
                 </div>
             </a>
