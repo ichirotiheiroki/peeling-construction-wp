@@ -42,7 +42,7 @@
     <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css?ver=13" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=15" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=16" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
