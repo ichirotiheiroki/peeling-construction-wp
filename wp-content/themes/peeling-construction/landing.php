@@ -335,14 +335,14 @@ get_header();
             <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
             <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
