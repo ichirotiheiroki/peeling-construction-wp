@@ -425,7 +425,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -445,7 +445,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -465,7 +465,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
             </div>
