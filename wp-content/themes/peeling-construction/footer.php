@@ -17,12 +17,12 @@
         <div class="row g-5 justify-content-between">
             <div class="col-lg-6 col-md-6">
                 <h5 class="text-white mb-4">Наш офис</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
+                <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
                     MTK Plaza mərtəbə 3
                 </p>
-                <a class="mb-2" href="tel:+994 55 254 44 45"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
+                <a class="mb-2 text-white" href="tel:+994 55 254 44 45"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
                 </a>
-                <a class="mb-2" href="mailto:info@peeling.az"><i class="fa fa-envelope me-3"></i>c</a>
+                <a class="mb-2 text-white" href="mailto:info@peeling.az"><i class="fa fa-envelope me-3"></i>c</a>
 <!--                <div class="d-flex pt-3">-->
 <!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
 <!--                                class="fab fa-twitter"></i></a>-->
