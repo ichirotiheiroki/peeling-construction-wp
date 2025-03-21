@@ -22,7 +22,7 @@
                 </p>
                 <a class="mb-2 text-white" href="tel:+994 55 254 44 45"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
                 </a>
-                <a class="mb-2 text-white" href="mailto:info@peeling.az"><i class="fa fa-envelope me-3"></i>c</a>
+                <a class="mb-2 text-white" href="mailto:info@peeling.az"><i class="fa fa-envelope me-3"></i>info@peeling.az</a>
 <!--                <div class="d-flex pt-3">-->
 <!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
 <!--                                class="fab fa-twitter"></i></a>-->
