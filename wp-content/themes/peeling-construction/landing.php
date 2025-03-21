@@ -319,76 +319,76 @@ get_header();
             <h1 class="display-5 text-white mb-5">Проекты выполненные нами</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Центр отдыха "Хазри"</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item" >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Детский сад № 319
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Рендеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Рендеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Работы по реконструкции в Лачыне
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
