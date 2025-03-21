@@ -159,6 +159,11 @@ get_header();
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/11.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
                         <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
                     </div>
                 </div>
