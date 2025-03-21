@@ -15,27 +15,32 @@
 <div id="contact" class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="row g-5 justify-content-between">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 flex flex-column col-md-6">
                 <h5 class="text-white mb-4">Наш офис</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
+                <p class="mb-2 text-white">
+                    <i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
                     MTK Plaza mərtəbə 3
                 </p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
-                </p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@peeling.az</p>
-                <div class="d-flex pt-3">
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-youtube"></i></a>
-                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                </div>
+                <a class="mb-2 text-white" href="tel:+994 55 254 44 45">
+                    <i class="fa fa-phone-alt me-3"></i>+994 55 254 44 45
+                </a>
+                <a class="mb-2 text-white" href="mailto:info@peeling.az">
+
+                    <i class="fa fa-envelope me-3"></i>info@peeling.az</a>
+<!--                <div class="d-flex pt-3">-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-twitter"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-facebook-f"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-youtube"></i></a>-->
+<!--                    <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i-->
+<!--                                class="fab fa-linkedin-in"></i></a>-->
+<!--                </div>-->
             </div>
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 flex flex-column col-md-6">
+
                 <h5 class="text-white mb-4">Новостная рассылка</h5>
                 <p>Подпишитесь на наши новостные обновления</p>
                 <div class="position-relative w-100">

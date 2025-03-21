@@ -54,6 +54,12 @@ h6,
 }
 
 
+.flex{
+    display: flex;
+
+}
+
+
 /*** Button ***/
 .btn {
     transition: .5s;

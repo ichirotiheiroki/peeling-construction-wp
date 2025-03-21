@@ -74,7 +74,7 @@ get_header();
                     <p class="fw-medium text-uppercase text-primary mb-2">О нас
                     </p>
                     <h1 class="display-5 mb-4">Мы Профессионалы Своего Дела</h1>
-                    <p class="mb-4">Компания Peeling Group LLC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства.
+                    <p class="mb-4">Компания Peeling Construction MMC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства.
                         Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные, кровельные и фасадные работы
                         и т. д., все из которых выполняются нашей компанией профессионально.
 
@@ -155,6 +155,11 @@ get_header();
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
                         <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/11.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
@@ -315,83 +320,111 @@ get_header();
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-white mb-2">Наши проекты</p>
-            <h1 class="display-5 text-white mb-5">Проекты выполненные нами</h1>
+            <p class="fw-medium text-uppercase text-white mb-2">Виды услуг</p>
+            <h1 class="display-5 text-white mb-5">Перечень услуг предоставляемых нашей компанией</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Центр отдыха "Хазри"</h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item" >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанкартинг
+                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Детский сад № 319
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры
+                    <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в Лачыне
+                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в городе "Лачын"
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="project-item"  >
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/12.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Реставрация фасадов
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/13.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Монтаж и демонтаж строительных лесов
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/14.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Строительство жилых и нежилых высокоэтажных зданий
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/15.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Установка систем кондиционирования и вентиляции
                     </h5>
                 </div>
             </a>
@@ -404,8 +437,8 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
-                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2">Наши проекты</p>
+                <h1 class="display-5 mb-4">Проекты выполненные нашей компанией</h1>
             </div>
             <div class="row gy-5 gx-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -425,7 +458,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -445,7 +478,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -465,7 +498,7 @@ get_header();
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Read More</a>
+<!--                        <a class="btn btn-light" href="">Read More</a>-->
                     </div>
                 </div>
             </div>
