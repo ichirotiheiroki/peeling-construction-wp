@@ -246,9 +246,9 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">Наши услуги</p>
-                    <h1 class="display-5 mb-4">Услуги предоставляемые нашей компанией:
-                    </h1>
+<!--                    <p class="fw-medium text-uppercase text-primary mb-2">Почему мы</p>-->
+                    <h2 class="display-5 mb-4">Преимущества нашей компанией:
+                    </h2>
                     <div class="row gy-4">
                         <div class="col-12">
                             <div class="d-flex">
@@ -256,9 +256,9 @@ get_header();
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
-                                    <h4>Experienced Workers</h4>
-                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                                        dolore erat amet</span>
+                                    <h4>Многолетний опыт </h4>
+                                    <span>Наша компания уже много лет успешно работает на рынке строительства, предоставляя услуги высокого качества как для частных клиентов, так и для крупных организаций.
+</span>
                                 </div>
                             </div>
                         </div>
@@ -268,9 +268,9 @@ get_header();
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
-                                    <h4>Reliable Industrial Services</h4>
-                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                                        dolore erat amet</span>
+                                    <h4>Точность и результативность</h4>
+                                    <span>Мы гарантируем точное соблюдение сроков выполнения работ и всегда нацелены на достижение максимальных результатов, удовлетворяющих потребности наших клиентов.
+</span>
                                 </div>
                             </div>
                         </div>
@@ -280,9 +280,32 @@ get_header();
                                     <i class="fa fa-check text-white"></i>
                                 </div>
                                 <div class="ms-4">
-                                    <h4>24/7 Customer Support</h4>
-                                    <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                                        dolore erat amet</span>
+                                    <h4>Гарант качества</h4>
+                                    <span>Мы используем только проверенные и высококачественные материалы, что позволяет нам обеспечивать долговечность и надежность каждого объекта.
+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>Опытные квалифицированные специалисты</h4>
+                                    <span>Наши специалисты — это опытные профессионалы, которые постоянно совершенствуют свои знания и навыки, чтобы предложить вам самые эффективные решения.
+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h4>Репутация и доверие</h4>
+                                    <span>Мы гордимся своей репутацией и множеством успешных проектов, которые стали залогом доверия наших клиентов и партнёров.</span>
                                 </div>
                             </div>
                         </div>
