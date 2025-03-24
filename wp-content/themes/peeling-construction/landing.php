@@ -428,6 +428,35 @@ get_header();
                     </h5>
                 </div>
             </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/16.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Котлованные работы
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/17.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Электрика
+
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/18.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Транспортировка
+                    </h5>
+                </div>
+            </a>
+            <a class="project-item"  >
+                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/19.jpg" alt="">
+                <div class="project-title">
+                    <h5 class="text-white mb-0 z-3">Водоснабжение и канализационные системы
+                    </h5>
+                </div>
+            </a>
         </div>
     </div>
     <!-- Project End -->
