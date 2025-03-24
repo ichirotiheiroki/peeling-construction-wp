@@ -247,7 +247,7 @@ get_header();
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
 <!--                    <p class="fw-medium text-uppercase text-primary mb-2">Почему мы</p>-->
-                    <h2 class="display-5 mb-4">Преимущества нашей компанией:
+                    <h2 class="display-5 mb-4">Преимущества нашей компании:
                     </h2>
                     <div class="row gy-4">
                         <div class="col-12">
