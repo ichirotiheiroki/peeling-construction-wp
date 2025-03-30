@@ -127,13 +127,13 @@ register_post_type('projects',
 
 );
 
-function projects_template($template) {
-    if (is_singular('projects')) {
-        return get_template_directory() . '/single-project.php';
-    }
-    return $template;
-}
-add_filter('template_include', 'projects_template');
+//function projects_template($template) {
+//    if (is_singular('projects')) {
+//        return get_template_directory() . '/single-project.php';
+//    }
+//    return $template;
+//}
+//add_filter('template_include', 'projects_template');
 
 function peeling_widgets_init() {
 	register_sidebar(
