@@ -498,7 +498,6 @@ get_header();
                 // параметры по умолчанию
                 $my_posts = get_posts( array(
                     'numberposts' => -1,
-                    'category_name' => 'projects',
                     'orderby' => 'date',
                     'order' => 'DESC',
                     'include' => array(),
