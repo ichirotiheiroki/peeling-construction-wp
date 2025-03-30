@@ -505,7 +505,6 @@ get_header();
                     'exclude' => array(),
                     'meta_key' => '',
                     'meta_value' =>'',
-                    'post_type' => 'post',
                     'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
                 ) );
 
