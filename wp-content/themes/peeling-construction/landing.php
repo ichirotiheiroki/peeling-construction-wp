@@ -517,7 +517,7 @@ get_header();
                         <div class="service-item">
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             <div class="service-img">
-                                <?php echo get_the_post_thumbnail(get_the_ID(), array(130,130), ['class' => 'img-fluid']); ?>
+                                <?php echo get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'img-fluid']); ?>
                             </div>
                             <div class="service-detail">
                                 <div class="service-title">
