@@ -515,7 +515,7 @@ get_header();
 
                     <a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
-                            <?php echo get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'img-fluid']); ?>
+                            <?php echo get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'img-fluid ratio ratio-1x1 object-fit-cover']); ?>
                             <div class="service-img">
                                 <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             </div>
