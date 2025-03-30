@@ -493,6 +493,57 @@ get_header();
                 <h1 class="display-5 mb-4">Проекты выполненные нашей компанией</h1>
             </div>
             <div class="row gy-5 gx-4">
+                <?php
+
+                // параметры по умолчанию
+                $my_posts = get_posts( array(
+                    'numberposts' => -1,
+                    'category_name' => 'projects',
+                    'orderby' => 'date',
+                    'order' => 'DESC',
+                    'include' => array(),
+                    'exclude' => array(),
+                    'meta_key' => '',
+                    'meta_value' =>'',
+                    'post_type' => 'post',
+                    'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                ) );
+
+                foreach( $my_posts as $post ){
+                    setup_postdata( $post );
+                    ?>
+
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
+                            <div class="service-img">
+                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
+                            </div>
+                            <div class="service-detail">
+                                <div class="service-title">
+                                    <hr class="w-25">
+                                    <h3 class="mb-0">Civil & Gas Engineering</h3>
+                                    <hr class="w-25">
+                                </div>
+                                <div class="service-text">
+                                    <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                                        lorem sed diam stet diam sed stet.</p>
+                                </div>
+                            </div>
+                            <!--                        <a class="btn btn-light" href="">Read More</a>-->
+                        </div>
+                    </div>
+
+                    <?php
+
+
+
+                }
+
+                wp_reset_postdata(); // сброс
+
+                ?>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
