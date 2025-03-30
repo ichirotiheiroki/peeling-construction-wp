@@ -516,19 +516,18 @@ get_header();
 
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
+                            <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             <div class="service-img">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
+                                <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             </div>
                             <div class="service-detail">
                                 <div class="service-title">
                                     <hr class="w-25">
-                                    <h3 class="mb-0">Civil & Gas Engineering</h3>
+                                    <h3 class="mb-0"><?php the_title(); ?></h3>
                                     <hr class="w-25">
                                 </div>
                                 <div class="service-text">
-                                    <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                        lorem sed diam stet diam sed stet.</p>
+                                    <p class="text-white mb-0"><?php the_excerpt(); ?></p>
                                 </div>
                             </div>
                             <!--                        <a class="btn btn-light" href="">Read More</a>-->
