@@ -513,7 +513,7 @@ get_header();
                     ?>
 
 
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             <div class="service-img">
@@ -531,7 +531,7 @@ get_header();
                             </div>
                             <!--                        <a class="btn btn-light" href="">Read More</a>-->
                         </div>
-                    </div>
+                    </a>
 
                     <?php
 

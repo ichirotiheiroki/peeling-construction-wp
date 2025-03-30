@@ -141,7 +141,9 @@ function projects_template($template) {
 }
 add_filter('template_include', 'projects_template');
 
-
+add_action('init', function() {
+    add_post_type_support('projects', 'thumbnail');
+});
 
 
 
