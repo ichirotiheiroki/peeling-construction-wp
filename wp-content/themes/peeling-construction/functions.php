@@ -113,6 +113,38 @@ add_action( 'after_setup_theme', 'peeling_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
+
+function create_posttype()
+{
+
+    register_post_type('projects',
+        array('labels' => array('name' => __('PROJECTS'),
+            'singular_name' => __('PROJECT')
+        ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'projects'),
+            'show_in_rest' => true,
+        )
+
+    );
+
+}
+
+add_action('init', 'create_posttype');
+
+function projects_template($template) {
+    if (is_singular('projects')) {
+        return get_template_directory() . '/single-project.php';
+    }
+    return $template;
+}
+add_filter('template_include', 'projects_template');
+
+
+
+
+
 function peeling_widgets_init() {
 	register_sidebar(
 		array(
