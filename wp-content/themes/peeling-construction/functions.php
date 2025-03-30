@@ -113,6 +113,20 @@ add_action( 'after_setup_theme', 'peeling_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
+
+
+register_post_type('projects',
+    array('labels' => array('name' => __('PROJECTS'),
+        'singular_name' => __('PROJECT')
+    ),
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'projects'),
+        'show_in_rest' => true,
+    )
+
+);
+
 function peeling_widgets_init() {
 	register_sidebar(
 		array(
