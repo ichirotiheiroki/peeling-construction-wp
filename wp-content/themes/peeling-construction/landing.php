@@ -542,66 +542,6 @@ get_header();
                 wp_reset_postdata(); // сброс
 
                 ?>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-1.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">Civil & Gas Engineering</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
-                            </div>
-                        </div>
-<!--                        <a class="btn btn-light" href="">Read More</a>-->
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-2.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-2.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">Power & Energy Engineering</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
-                            </div>
-                        </div>
-<!--                        <a class="btn btn-light" href="">Read More</a>-->
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-3.jpg" alt="">
-                        <div class="service-img">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/service-3.jpg" alt="">
-                        </div>
-                        <div class="service-detail">
-                            <div class="service-title">
-                                <hr class="w-25">
-                                <h3 class="mb-0">Plumbing & Water Treatment</h3>
-                                <hr class="w-25">
-                            </div>
-                            <div class="service-text">
-                                <p class="text-white mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                                    lorem sed diam stet diam sed stet.</p>
-                            </div>
-                        </div>
-<!--                        <a class="btn btn-light" href="">Read More</a>-->
-                    </div>
-                </div>
             </div>
         </div>
     </div>
