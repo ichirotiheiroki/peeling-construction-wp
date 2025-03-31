@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
-    <div class="container-fluid     pt-5 my-5 px-0">
-        <h1 class="project-post-title"><?php the_title(); ?></h1>
-        <div class="project-post-content"><?php the_content(); ?></div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <h1 class="project-post-title"><?php the_title(); ?></h1>
+            <div class="project-post-content"><?php the_content(); ?></div>
+        </div>
     </div>
 
 <?php get_footer(); ?>
