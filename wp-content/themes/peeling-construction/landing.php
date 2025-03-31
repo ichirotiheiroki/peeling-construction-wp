@@ -525,7 +525,7 @@ get_header();
                                     <h3 class="mb-0"><?php the_title(); ?></h3>
                                     <hr class="w-25">
                                 </div>
-                                <div class="service-text">
+                                <div class="service-text text-white">
                                     <p class="text-white mb-0"><?php the_excerpt(); ?></p>
                                 </div>
                             </div>
