@@ -724,6 +724,19 @@ h6,
 }
 
 
+.project-post-title{
+    padding: 0 15px;
+    text-align: center;
+}
+
+.project-post-content{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 @media (max-width: 768px) {
     .navbar .navbar-brand{
         padding: 0 50px 0 20px;
