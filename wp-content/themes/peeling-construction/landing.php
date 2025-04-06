@@ -565,7 +565,7 @@ get_header();
 
                 ?>
             </div>
-            <div class="row justify-content-center">
+            <div class="flex justify-content-center">
                 <a class="btn btn-primary py-3 px-5" href="/projects">Больше проектов</a>
             </div>
         </div>
