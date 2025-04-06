@@ -36,7 +36,8 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Строительно-ремонтные услуги</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Строительно-ремонтные
+                                        услуги</h1>
                                 </div>
                             </div>
                         </div>
@@ -63,10 +64,12 @@ get_header();
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
                         <div class="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-1.jpg?ver=15">
+                            <img class="img-fluid"
+                                 src="<?php echo get_template_directory_uri(); ?>/img/about-1.jpg?ver=15">
                         </div>
                         <div class="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/about-2.jpg?ver=15">
+                            <img class="img-fluid"
+                                 src="<?php echo get_template_directory_uri(); ?>/img/about-2.jpg?ver=15">
                         </div>
                     </div>
                 </div>
@@ -74,8 +77,12 @@ get_header();
                     <p class="fw-medium text-uppercase text-primary mb-2">О нас
                     </p>
                     <h1 class="display-5 mb-4">Мы Профессионалы Своего Дела</h1>
-                    <p class="mb-4">Компания Peeling Construction MMC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства.
-                        Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные, кровельные и фасадные работы
+                    <p class="mb-4">Компания Peeling Construction MMC была основана в 2018 году и с момента своего
+                        основания предоставляет услуги в сфере строительства.
+                        Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет
+                        в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши
+                        услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные,
+                        кровельные и фасадные работы
                         и т. д., все из которых выполняются нашей компанией профессионально.
 
                     </p>
@@ -88,8 +95,10 @@ get_header();
                             <p><i class="fa fa-check text-primary me-2"></i>Отделочные работы</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Гидроизоляционные работы</p>
                             <p><i class="fa fa-check text-primary me-2"></i>Благоустройство прилегающих территорий</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Строительство частных домов, квартир и офисов</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Комплексное выполнение ремонтно-строительных работ</p>
+                            <p><i class="fa fa-check text-primary me-2"></i>Строительство частных домов, квартир и
+                                офисов</p>
+                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Комплексное выполнение
+                                ремонтно-строительных работ</p>
                         </div>
 
                     </div>
@@ -134,57 +143,68 @@ get_header();
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/1.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/1.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/2.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/2.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/3.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/3.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/4.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/4.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/5.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/11.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/11.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/6.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/7.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/7.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/8.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/8.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/9.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/9.png">
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-img position-relative">
-                        <img class="img-fluid   mx-auto mb-5" src="<?php echo get_template_directory_uri(); ?>/img/partners/10.png">
+                        <img class="img-fluid   mx-auto mb-5"
+                             src="<?php echo get_template_directory_uri(); ?>/img/partners/10.png">
                     </div>
                 </div>
             </div>
@@ -235,18 +255,20 @@ get_header();
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/feature.jpg" alt="">
+                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/feature.jpg"
+                             alt="">
                         <span
-                            class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
-                            style="width: 120px; height: 120px;"></span>
+                                class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
+                                style="width: 120px; height: 120px;"></span>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="<?php echo get_template_directory_uri(); ?>/https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                                data-src="<?php echo get_template_directory_uri(); ?>/https://www.youtube.com/embed/DWRcNpR6Kdc"
+                                data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-<!--                    <p class="fw-medium text-uppercase text-primary mb-2">Почему мы</p>-->
+                    <!--                    <p class="fw-medium text-uppercase text-primary mb-2">Почему мы</p>-->
                     <h2 class="display-5 mb-4">Преимущества нашей компании:
                     </h2>
                     <div class="row gy-4">
@@ -329,7 +351,8 @@ get_header();
                 <div class="modal-body">
                     <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="<?php echo get_template_directory_uri(); ?>/" id="video" allowfullscreen
+                        <iframe class="embed-responsive-item" src="<?php echo get_template_directory_uri(); ?>/"
+                                id="video" allowfullscreen
                                 allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
                 </div>
@@ -339,7 +362,6 @@ get_header();
     <!-- Video Modal End -->
 
 
-
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -347,118 +369,118 @@ get_header();
             <h1 class="display-5 text-white mb-5">Перечень услуг предоставляемых нашей компанией</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Центр отдыха "Хазри"</h5>
                 </div>
             </a>
-            <a class="project-item" >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Детский сад № 319
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Рендеры проектов
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Работы по реконструкции в городе "Лачын"
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/12.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Реставрация фасадов
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/13.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Монтаж и демонтаж строительных лесов
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/14.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Строительство жилых и нежилых высокоэтажных зданий
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/15.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Установка систем кондиционирования и вентиляции
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/16.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Котлованные работы
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/17.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Электрика
@@ -466,14 +488,14 @@ get_header();
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/18.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Транспортировка
                     </h5>
                 </div>
             </a>
-            <a class="project-item"  >
+            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/19.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Водоснабжение и канализационные системы
@@ -496,24 +518,25 @@ get_header();
                 <?php
 
                 // параметры по умолчанию
-                $my_posts = get_posts( array(
-                    'numberposts' => -1,
+                $my_posts = get_posts(array(
+                    'numberposts' => 3,
                     'orderby' => 'date',
                     'order' => 'DESC',
                     'include' => array(),
                     'exclude' => array(),
                     'meta_key' => '',
-                    'meta_value' =>'',
+                    'meta_value' => '',
                     'post_type' => 'projects',
                     'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
-                ) );
+                ));
 
-                foreach( $my_posts as $post ){
-                    setup_postdata( $post );
+                foreach ($my_posts as $post) {
+                    setup_postdata($post);
                     ?>
 
 
-                    <a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp"
+                       data-wow-delay="0.1s">
                         <div class="service-item">
                             <?php echo get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'img-fluid ratio ratio-1x1 object-fit-cover']); ?>
                             <div class="service-img">
@@ -536,12 +559,14 @@ get_header();
                     <?php
 
 
-
                 }
 
                 wp_reset_postdata(); // сброс
 
                 ?>
+            </div>
+            <div class="row justify-content-center">
+                <a class="btn btn-primary py-3 px-5" href="/projects">Больше проектов</a>
             </div>
         </div>
     </div>
@@ -629,12 +654,6 @@ get_header();
         </div>
     </div>-->
     <!-- Team End -->
-
-
-
-
-
-
 
 
 <?php
