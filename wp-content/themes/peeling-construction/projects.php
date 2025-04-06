@@ -4,6 +4,7 @@ Template Name: Projects List Page
 */
 
 
+echo "Тест шаблона: Projects List Page"; // проверка загрузки шаблона
 
 get_header();
 ?>
