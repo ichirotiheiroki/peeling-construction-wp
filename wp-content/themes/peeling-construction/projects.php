@@ -3,13 +3,7 @@
 Template Name: Projects Page
 */
 
-/**
- * The template for displaying "Projects" page
- *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package peeling-construction.az
- */
+
 
 get_header();
 ?>
