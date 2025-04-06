@@ -538,7 +538,16 @@ get_header();
                     <a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp"
                        data-wow-delay="0.1s">
                         <div class="service-item">
-                            <?php echo get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'img-fluid ratio ratio-1x1 object-fit-cover']); ?>
+                            <?php
+                            $thumbnail_id = get_the_ID();
+                            $thumbnail_url = get_the_post_thumbnail_url($thumbnail_id, 'full');
+
+                            if (!$thumbnail_url) {
+                                $thumbnail_url = get_template_directory_uri() . '/img/projects-placeholder.jpg';
+                            }
+
+                            echo '<img src="' . esc_url($thumbnail_url) . '" class="img-fluid ratio ratio-1x1 object-fit-cover" alt="' . esc_attr(get_the_title()) . '">';
+                            ?>
                             <div class="service-img">
                                 <?php echo get_the_post_thumbnail(get_the_ID(), 'thumbnail', ['class' => 'img-fluid']); ?>
                             </div>
