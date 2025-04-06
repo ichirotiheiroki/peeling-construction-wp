@@ -535,7 +535,7 @@ get_header();
 
 
 
-                    get_template_part('content', 'project-card');
+                    get_template_part('./project-card');
 
 
 
