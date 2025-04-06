@@ -34,7 +34,7 @@ get_header();
                 foreach( $my_posts as $post ){
                     setup_postdata( $post );
 
-                    get_template_part('content', './project-card.php');
+                    get_template_part('./project-card');
 
                 }
 
