@@ -27,7 +27,6 @@ get_header();
                     'exclude' => array(),
                     'meta_key' => '',
                     'meta_value' =>'',
-                    'post_type' => 'projects',
                     'suppress_filters' => true,
                 ) );
 
