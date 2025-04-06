@@ -9,7 +9,7 @@
             $thumbnail_url = get_template_directory_uri() . '/img/projects-placeholder.jpg';
         }
 
-        echo '<img src="' . esc_url($thumbnail_url) . '" class="img-fluid ratio ratio-1x1 object-fit-cover" alt="' . esc_attr(get_the_title()) . '">';
+        echo '<img src="' . esc_url($thumbnail_url) . '" class="img-fluid ratio ratio-1x1 object-fit-cover" alt=" style="min-height: 408px;"' . esc_attr(get_the_title()) . '">';
         ?>
 
         <div class="service-img">
