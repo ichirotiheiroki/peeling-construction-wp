@@ -370,12 +370,6 @@ get_header();
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
             <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/1.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Центр отдыха "Хазри"</h5>
-                </div>
-            </a>
-            <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
                 <div class="project-title">
                     <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
