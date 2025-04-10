@@ -1,4 +1,4 @@
-<a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+<a href="<?php echo get_permalink(); ?>" class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
     <div class="service-item">
         <?php
         $thumbnail_id = get_the_ID();
