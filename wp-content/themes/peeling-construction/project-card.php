@@ -31,7 +31,7 @@
                 <hr class="w-25">
             </div>
             <div class="service-text text-white">
-                <p class="text-white mb-0"><?php the_excerpt(); ?></p>
+                <p class="text-white mb-0"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
             </div>
         </div>
     </div>
