@@ -385,14 +385,14 @@ get_header();
             <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
+                    <h5 class="text-white mb-0 z-3">Sea Breeze “Funzkarting”
                     </h5>
                 </div>
             </a>
             <a class="project-item">
                 <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
                 <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Си Бриз Фанзкартинг
+                    <h5 class="text-white mb-0 z-3">Sea Breeze “Funzkarting”
                     </h5>
                 </div>
             </a>
@@ -519,9 +519,9 @@ get_header();
 
                 // параметры по умолчанию
                 $my_posts = get_posts(array(
-                    'numberposts' => 3,
+                    'numberposts' => 4,
                     'orderby' => 'date',
-                    'order' => 'DESC',
+                    'order' => 'ASC',
                     'include' => array(),
                     'exclude' => array(),
                     'meta_key' => '',
