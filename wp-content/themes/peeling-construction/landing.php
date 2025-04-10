@@ -514,7 +514,7 @@ get_header();
                 // параметры по умолчанию
                 $my_posts = get_posts(array(
                     'numberposts' => 4,
-                    'orderby' => 'date',
+                    'orderby' => 'modified',
                     'order' => 'ASC',
                     'include' => array(),
                     'exclude' => array(),
