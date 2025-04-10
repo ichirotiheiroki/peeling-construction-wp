@@ -514,12 +514,11 @@ get_header();
                 // параметры по умолчанию
                 $my_posts = get_posts(array(
                     'numberposts' => 4,
-                    'orderby' => 'modified',
                     'order' => 'ASC',
                     'include' => array(),
                     'exclude' => array(),
-                    'meta_key' => '',
-                    'meta_value' => '',
+                    'meta_key' => 'order_value',
+                    'orderby' => 'meta_value_num',
                     'post_type' => 'projects',
                     'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
                 ));
