@@ -21,12 +21,11 @@ get_header();
                 // параметры по умолчанию
                 $my_posts = get_posts( array(
                     'numberposts' => -1,
-                    'orderby' => 'date',
-                    'order' => 'DESC',
+                    'order' => 'ASC',
                     'include' => array(),
                     'exclude' => array(),
-                    'meta_key' => '',
-                    'meta_value' =>'',
+                    'meta_key' => 'order_value',
+                    'orderby' => 'meta_value_num',
                     'post_type' => 'projects',
                     'suppress_filters' => true,
                 ) );
