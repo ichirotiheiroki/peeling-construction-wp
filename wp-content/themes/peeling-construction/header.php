@@ -71,6 +71,7 @@
                 <span class="fs-5 fw-bold">+994 55 254 44 45
 </span>
             </a>
+            <?php echo do_shortcode('[gtranslate]'); ?>
         </div>
     </div>
 </div>
