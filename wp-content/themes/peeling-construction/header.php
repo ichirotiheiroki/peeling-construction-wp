@@ -71,7 +71,6 @@
                 <span class="fs-5 fw-bold">+994 55 254 44 45
 </span>
             </a>
-            <?php echo do_shortcode('[gtranslate]'); ?>
         </div>
     </div>
 </div>
@@ -87,7 +86,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
+        <div class="navbar-nav ms-auto p-4 p-lg-0 align-middle">
             <a href="#about" class="nav-item nav-link">О нас</a>
             <a href="#service" class="nav-item nav-link">Решения</a>
 <!--            <div class="nav-item dropdown">-->
@@ -101,6 +100,7 @@
 <!--                </div>-->
 <!--            </div>-->
             <a href="#contact" class="nav-item nav-link">Контакты</a>
+            <?php echo do_shortcode('[gtranslate]'); ?>
         </div>
         <a href="" class="btn btn-primary px-3 d-none d-lg-block">Получить консультацию</a>
     </div>
