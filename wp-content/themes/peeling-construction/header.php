@@ -37,10 +37,10 @@
     <link href="<?php echo get_template_directory_uri(); ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css?ver=13" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css?ver=14" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=16" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/style.css?ver=17" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
