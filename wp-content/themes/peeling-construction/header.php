@@ -86,7 +86,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0 align-middle">
+        <div class="navbar-nav ms-auto p-4 p-lg-0 align-items-center">
             <a href="#about" class="nav-item nav-link">О нас</a>
             <a href="#service" class="nav-item nav-link">Решения</a>
 <!--            <div class="nav-item dropdown">-->
