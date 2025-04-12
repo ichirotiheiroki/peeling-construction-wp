@@ -100,7 +100,7 @@
 <!--                </div>-->
 <!--            </div>-->
             <a href="#contact" class="nav-item nav-link">Контакты</a>
-            <?php echo do_shortcode('[gtranslate]'); ?>
+<!--            --><?php //echo do_shortcode('[gtranslate]'); ?>
         </div>
         <a href="" class="btn btn-primary px-3 d-none d-lg-block">Получить консультацию</a>
     </div>
