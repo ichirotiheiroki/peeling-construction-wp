@@ -145,7 +145,19 @@ add_action('init', function() {
     add_post_type_support('projects', 'thumbnail');
 });
 
-
+add_action('init', function () {
+    pll_register_string('carousel_title_1', 'Благоустройство и инженерные работы', 'Landing');
+    pll_register_string('carousel_title_2', 'Работы по кондиционированию и вентиляции', 'Landing');
+    pll_register_string('accuracy', 'Точность и результативность', 'Landing');
+    pll_register_string('construction', 'Строительно-монтажные работы', 'Landing');
+    pll_register_string('projects_completed', 'Завершённых проектов', 'Landing');
+    pll_register_string('employees', 'Сотрудников', 'Landing');
+    pll_register_string('call_us', 'Позвоните нам', 'Landing');
+    pll_register_string('adam_crew', 'Adam Crew', 'Landing');
+    pll_register_string('peter_farel', 'Peter Farel', 'Landing');
+    pll_register_string('email', 'info@peeling.az', 'Landing');
+    pll_register_string('next', 'Next', 'Landing');
+});
 
 function peeling_widgets_init() {
 	register_sidebar(
