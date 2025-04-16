@@ -102,6 +102,18 @@
             <a href="#contact" class="nav-item nav-link">Контакты</a>
 <!--            --><?php //echo do_shortcode('[gtranslate]'); ?>
         </div>
+        <?php
+        if (function_exists('pll_the_languages')) {
+            pll_the_languages(array(
+                'show_flags' => 1,
+                'show_names' => 1,
+                'hide_current' => 0,
+                'display_names_as' => 'name',
+                'raw' => 0
+            ));
+        }
+        ?>
+
         <a href="" class="btn btn-primary px-3 d-none d-lg-block">Получить консультацию</a>
     </div>
 </nav>
