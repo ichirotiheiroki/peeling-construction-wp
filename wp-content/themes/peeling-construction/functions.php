@@ -159,7 +159,8 @@ add_action('init', function () {
 
     pll_register_string('about_title', 'О нас', 'Landing');
     pll_register_string('about_heading', 'Мы Профессионалы Своего Дела', 'Landing');
-    pll_register_string('about_paragraph', 'Компания Peeling Construction MMC была основана в 2018 году...', 'Landing');
+    pll_register_string('about_paragraph', __('Компания Peeling Construction MMC была основана в 2018 году...', 'your-textdomain'), 'Landing');
+
 
     pll_register_string('about_service_1', 'Строительно-монтажные работы', 'Landing');
     pll_register_string('about_service_2', 'Ремонтно-строительные работы', 'Landing');
