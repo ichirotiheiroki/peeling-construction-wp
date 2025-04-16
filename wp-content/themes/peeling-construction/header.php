@@ -103,14 +103,20 @@
 <!--            --><?php //echo do_shortcode('[gtranslate]'); ?>
         </div>
         <?php
-        if (function_exists('pll_the_languages')) {
-            pll_the_languages(array(
-                'show_flags' => 1,
-                'show_names' => 1,
-                'hide_current' => 0,
-                'display_names_as' => 'name',
-                'raw' => 0
-            ));
+        $languages = pll_get_the_languages(array('raw' => 1));
+        if ($languages) {
+            echo '<ul class="custom-lang-switcher">';
+            foreach ($languages as $lang) {
+                echo '<li>';
+                echo '<a href="' . esc_url($lang['url']) . '">';
+                if (!empty($lang['flag'])) {
+                    echo $lang['flag'] . ' ';
+                }
+                echo esc_html($lang['name']);
+                echo '</a>';
+                echo '</li>';
+            }
+            echo '</ul>';
         }
         ?>
 
