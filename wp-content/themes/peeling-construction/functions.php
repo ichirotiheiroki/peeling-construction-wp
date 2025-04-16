@@ -114,21 +114,26 @@ add_action( 'after_setup_theme', 'peeling_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 
-function create_posttype()
-{
+add_action('init', function () {
+    pll_register_post_type('projects');
+});
 
+
+function create_posttype() {
     register_post_type('projects',
-        array('labels' => array('name' => __('PROJECTS'),
-            'singular_name' => __('PROJECT')
-        ),
+        array(
+            'labels' => array(
+                'name' => __('PROJECTS', 'your-textdomain'),
+                'singular_name' => __('PROJECT', 'your-textdomain')
+            ),
             'public' => true,
             'has_archive' => true,
+            'publicly_queryable' => true,
             'rewrite' => array('slug' => 'projects'),
             'show_in_rest' => true,
+            'supports' => array('title', 'editor', 'thumbnail'), // добавил title/editor
         )
-
     );
-
 }
 
 add_action('init', 'create_posttype');
