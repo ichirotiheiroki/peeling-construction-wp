@@ -114,10 +114,6 @@ add_action( 'after_setup_theme', 'peeling_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 
-add_action('init', function () {
-    pll_register_post_type('projects');
-});
-
 
 function create_posttype() {
     register_post_type('projects',
@@ -149,6 +145,11 @@ add_filter('template_include', 'projects_template');
 add_action('init', function() {
     add_post_type_support('projects', 'thumbnail');
 });
+
+add_action('init', function () {
+    pll_register_post_type('projects');
+});
+
 
 add_action('init', function () {
     pll_register_string('carousel_text_1', 'Благоустройство и инженерные работы', 'Landing');
