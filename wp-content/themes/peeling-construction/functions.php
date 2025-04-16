@@ -146,17 +146,27 @@ add_action('init', function() {
 });
 
 add_action('init', function () {
-    pll_register_string('carousel_title_1', 'Благоустройство и инженерные работы', 'Landing');
-    pll_register_string('carousel_title_2', 'Работы по кондиционированию и вентиляции', 'Landing');
-    pll_register_string('accuracy', 'Точность и результативность', 'Landing');
-    pll_register_string('construction', 'Строительно-монтажные работы', 'Landing');
-    pll_register_string('projects_completed', 'Завершённых проектов', 'Landing');
-    pll_register_string('employees', 'Сотрудников', 'Landing');
-    pll_register_string('call_us', 'Позвоните нам', 'Landing');
-    pll_register_string('adam_crew', 'Adam Crew', 'Landing');
-    pll_register_string('peter_farel', 'Peter Farel', 'Landing');
-    pll_register_string('email', 'info@peeling.az', 'Landing');
-    pll_register_string('next', 'Next', 'Landing');
+    pll_register_string('carousel_text_1', 'Благоустройство и инженерные работы', 'Landing');
+    pll_register_string('carousel_text_2', 'Строительно-ремонтные услуги', 'Landing');
+    pll_register_string('carousel_prev', 'Предыдущий', 'Landing');
+    pll_register_string('carousel_next', 'Следующий', 'Landing');
+
+    pll_register_string('about_title', 'О нас', 'Landing');
+    pll_register_string('about_heading', 'Мы Профессионалы Своего Дела', 'Landing');
+    pll_register_string('about_paragraph', 'Компания Peeling Construction MMC была основана в 2018 году...', 'Landing');
+
+    pll_register_string('about_service_1', 'Строительно-монтажные работы', 'Landing');
+    pll_register_string('about_service_2', 'Ремонтно-строительные работы', 'Landing');
+    pll_register_string('about_service_3', 'Благоустройство и реконструкция зданий', 'Landing');
+    pll_register_string('about_service_4', 'Работы по кондиционированию и вентиляции', 'Landing');
+    pll_register_string('about_service_5', 'Отделочные работы', 'Landing');
+    pll_register_string('about_service_6', 'Гидроизоляционные работы', 'Landing');
+    pll_register_string('about_service_7', 'Благоустройство прилегающих территорий', 'Landing');
+    pll_register_string('about_service_8', 'Строительство частных домов, квартир и офисов', 'Landing');
+    pll_register_string('about_service_9', 'Комплексное выполнение ремонтно-строительных работ', 'Landing');
+
+    pll_register_string('about_contact_us', 'Позвоните нам', 'Landing');
+    pll_register_string('about_write_us', 'Напишите нам', 'Landing');
 });
 
 function peeling_widgets_init() {

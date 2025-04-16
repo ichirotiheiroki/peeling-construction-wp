@@ -23,7 +23,7 @@ get_header();
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">
-                                        Благоустройство и инженерные работы
+                                        <?php echo pll__('Благоустройство и инженерные работы'); ?>
                                     </h1>
                                 </div>
                             </div>
@@ -36,8 +36,9 @@ get_header();
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">Строительно-ремонтные
-                                        услуги</h1>
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight">
+                                        <?php echo pll__('Строительно-ремонтные услуги'); ?>
+                                    </h1>
                                 </div>
                             </div>
                         </div>
@@ -46,16 +47,15 @@ get_header();
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <span class="visually-hidden"><?php echo pll__('Предыдущий'); ?></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden"><?php echo pll__('Следующий'); ?></span>
             </button>
         </div>
     </div>
     <!-- Carousel End -->
-
 
     <!-- About Start -->
     <div id="about" class="container-xxl py-5">
@@ -74,33 +74,23 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2">О нас
-                    </p>
-                    <h1 class="display-5 mb-4">Мы Профессионалы Своего Дела</h1>
-                    <p class="mb-4">Компания Peeling Construction MMC была основана в 2018 году и с момента своего
-                        основания предоставляет услуги в сфере строительства.
-                        Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет
-                        в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши
-                        услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные,
-                        кровельные и фасадные работы
-                        и т. д., все из которых выполняются нашей компанией профессионально.
-
-                    </p>
+                    <p class="fw-medium text-uppercase text-primary mb-2"><?php echo pll__('О нас'); ?></p>
+                    <h1 class="display-5 mb-4"><?php echo pll__('Мы Профессионалы Своего Дела'); ?></h1>
+                    <p class="mb-4"><?php echo pll__('Компания Peeling Construction MMC была основана в 2018 году и с момента своего основания предоставляет услуги в сфере строительства. Наша цель — стать сильным и надежным поставщиком услуг. Высокое качество — наш главный приоритет в областях, комплексах и проектах, требующих особого подхода и обслуживания клиентов. Наши услуги включают в себя ремонт, строительство с нуля, сантехнические, электромонтажные, кровельные и фасадные работы и т. д., все из которых выполняются нашей компанией профессионально.'); ?></p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="ms-4">
-                            <p><i class="fa fa-check text-primary me-2"></i>Строительно-монтажные работы</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Ремонтно-строительные работы</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Благоустройство и реконструкция зданий</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Работы по кондиционированию и вентиляции</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Отделочные работы</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Гидроизоляционные работы</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Благоустройство прилегающих территорий</p>
-                            <p><i class="fa fa-check text-primary me-2"></i>Строительство частных домов, квартир и
-                                офисов</p>
-                            <p class="mb-0"><i class="fa fa-check text-primary me-2"></i>Комплексное выполнение
-                                ремонтно-строительных работ</p>
+                            <?php
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Строительно-монтажные работы') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Ремонтно-строительные работы') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Благоустройство и реконструкция зданий') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Работы по кондиционированию и вентиляции') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Отделочные работы') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Гидроизоляционные работы') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Благоустройство прилегающих территорий') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Строительство частных домов, квартир и офисов') . '</p>';
+                            echo '<p class="mb-0"><i class="fa fa-check text-primary me-2"></i>' . pll__('Комплексное выполнение ремонтно-строительных работ') . '</p>';
+                            ?>
                         </div>
-
                     </div>
                     <div class="row pt-2">
                         <div class="col-sm-6">
@@ -109,7 +99,7 @@ get_header();
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Напишите нам</p>
+                                    <p class="mb-2"><?php echo pll__('Напишите нам'); ?></p>
                                     <a class="mb-0" href="mailto:info@peeling.az">info@peeling.az</a>
                                 </div>
                             </div>
@@ -120,9 +110,8 @@ get_header();
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2">Позвоните нам</p>
-                                    <a class="mb-0" href="tel:+994552544445">+994 55 254 4445
-                                    </a>
+                                    <p class="mb-2"><?php echo pll__('Позвоните нам'); ?></p>
+                                    <a class="mb-0" href="tel:+994552544445">+994 55 254 4445</a>
                                 </div>
                             </div>
                         </div>
@@ -216,37 +205,48 @@ get_header();
     <!-- Facts Start -->
     <div class="container-fluid facts my-5 p-5">
         <div class="row g-5">
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-certificate fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">7</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Лет Опыта</span>
+            <?php
+            $facts = [
+                [
+                    'icon' => 'fa-certificate',
+                    'value' => 7,
+                    'label' => 'Лет Опыта',
+                    'delay' => '0.1s',
+                ],
+                [
+                    'icon' => 'fa-users-cog',
+                    'value' => 148,
+                    'label' => 'Сотрудников',
+                    'delay' => '0.3s',
+                ],
+                [
+                    'icon' => 'fa-users',
+                    'value' => 57,
+                    'label' => 'Довольных клиентов',
+                    'delay' => '0.5s',
+                ],
+                [
+                    'icon' => 'fa-check-double',
+                    'value' => 82,
+                    'label' => 'Завершённых проектов',
+                    'delay' => '0.7s',
+                ]
+            ];
+
+            foreach ($facts as $fact) :
+                ?>
+                <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="<?php echo esc_attr($fact['delay']); ?>">
+                    <div class="text-center border p-5">
+                        <i class="fa <?php echo esc_attr($fact['icon']); ?> fa-3x text-white mb-3"></i>
+                        <h1 class="display-2 text-primary mb-0" data-toggle="counter-up"><?php echo esc_html($fact['value']); ?></h1>
+                        <span class="fs-5 fw-semi-bold text-white"><?php echo esc_html($fact['label']); ?></span>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.3s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users-cog fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">148</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Сотрудников</span>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.5s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-users fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">57</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Довольных клиентов</span>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3 wow fadeIn" data-wow-delay="0.7s">
-                <div class="text-center border p-5">
-                    <i class="fa fa-check-double fa-3x text-white mb-3"></i>
-                    <h1 class="display-2 text-primary mb-0" data-toggle="counter-up">82</h1>
-                    <span class="fs-5 fw-semi-bold text-white">Завершённых проектов</span>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
     <!-- Facts End -->
+
 
 
     <!-- Features Start -->
@@ -255,88 +255,61 @@ get_header();
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="position-relative me-lg-4">
-                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/feature.jpg"
-                             alt="">
-                        <span
-                                class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block"
-                                style="width: 120px; height: 120px;"></span>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                                data-src="<?php echo get_template_directory_uri(); ?>/https://www.youtube.com/embed/DWRcNpR6Kdc"
-                                data-bs-target="#videoModal">
+                        <img class="img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/img/feature.jpg" alt="">
+                        <span class="position-absolute top-50 start-100 translate-middle bg-white rounded-circle d-none d-lg-block" style="width: 120px; height: 120px;"></span>
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <!--                    <p class="fw-medium text-uppercase text-primary mb-2">Почему мы</p>-->
-                    <h2 class="display-5 mb-4">Преимущества нашей компании:
-                    </h2>
+                    <h2 class="display-5 mb-4">Преимущества нашей компании:</h2>
                     <div class="row gy-4">
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <h4>Многолетний опыт </h4>
-                                    <span>Наша компания уже много лет успешно работает на рынке строительства, предоставляя услуги высокого качества как для частных клиентов, так и для крупных организаций.
-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <h4>Точность и результативность</h4>
-                                    <span>Мы гарантируем точное соблюдение сроков выполнения работ и всегда нацелены на достижение максимальных результатов, удовлетворяющих потребности наших клиентов.
-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <h4>Гарант качества</h4>
-                                    <span>Мы используем только проверенные и высококачественные материалы, что позволяет нам обеспечивать долговечность и надежность каждого объекта.
-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <h4>Опытные квалифицированные специалисты</h4>
-                                    <span>Наши специалисты — это опытные профессионалы, которые постоянно совершенствуют свои знания и навыки, чтобы предложить вам самые эффективные решения.
-</span>
+                        <?php
+                        $features = [
+                            [
+                                'title' => 'Многолетний опыт',
+                                'desc' => 'Наша компания уже много лет успешно работает на рынке строительства, предоставляя услуги высокого качества как для частных клиентов, так и для крупных организаций.'
+                            ],
+                            [
+                                'title' => 'Точность и результативность',
+                                'desc' => 'Мы гарантируем точное соблюдение сроков выполнения работ и всегда нацелены на достижение максимальных результатов, удовлетворяющих потребности наших клиентов.'
+                            ],
+                            [
+                                'title' => 'Гарант качества',
+                                'desc' => 'Мы используем только проверенные и высококачественные материалы, что позволяет нам обеспечивать долговечность и надежность каждого объекта.'
+                            ],
+                            [
+                                'title' => 'Опытные квалифицированные специалисты',
+                                'desc' => 'Наши специалисты — это опытные профессионалы, которые постоянно совершенствуют свои знания и навыки, чтобы предложить вам самые эффективные решения.'
+                            ],
+                            [
+                                'title' => 'Репутация и доверие',
+                                'desc' => 'Мы гордимся своей репутацией и множеством успешных проектов, которые стали залогом доверия наших клиентов и партнёров.'
+                            ]
+                        ];
+
+                        foreach ($features as $feature) :
+                            ?>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <h4><?php echo esc_html($feature['title']); ?></h4>
+                                        <span><?php echo esc_html($feature['desc']); ?></span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
-                                    <i class="fa fa-check text-white"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <h4>Репутация и доверие</h4>
-                                    <span>Мы гордимся своей репутацией и множеством успешных проектов, которые стали залогом доверия наших клиентов и партнёров.</span>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Features End -->
+
 
 
     <!-- Video Modal Start -->
