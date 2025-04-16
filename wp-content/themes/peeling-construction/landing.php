@@ -99,7 +99,7 @@ get_header();
                                     <i class="fa fa-envelope-open text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2"><?php echo pll__('Напишите нам'); ?></p>
+                                    <p class="mb-2"><?php echo t('about_write_us'); ?></p>
                                     <a class="mb-0" href="mailto:info@peeling.az">info@peeling.az</a>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ get_header();
                                     <i class="fa fa-phone-alt text-white"></i>
                                 </div>
                                 <div class="ms-3">
-                                    <p class="mb-2"><?php echo pll__('Позвоните нам'); ?></p>
+                                    <p class="mb-2"><?php echo t('about_write_us'); ?></p>
                                     <a class="mb-0" href="tel:+994552544445">+994 55 254 4445</a>
                                 </div>
                             </div>
