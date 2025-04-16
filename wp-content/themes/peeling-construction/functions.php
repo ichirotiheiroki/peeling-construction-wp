@@ -151,38 +151,36 @@ add_action('pll_init', function () {
 });
 
 
-function register_strings() {
-    $strings = array(
-        'carousel_text_1' => 'Благоустройство и инженерные работы',
-        'carousel_text_2' => 'Строительно-ремонтные услуги',
-        'carousel_prev' => 'Предыдущий',
-        'carousel_next' => 'Следующий',
+add_action('init', function () {
+    $strings = include get_template_directory() . '/lang-strings.php';
 
-        'about_title' => 'О нас',
-        'about_heading' => 'Мы Профессионалы Своего Дела',
-        'about_paragraph' => 'Компания Peeling Construction MMC была основана в 2018 году...',
+    foreach ($strings as $key => $value) {
+        pll_register_string($key, $value, 'Landing');
+    }
+});
 
-        'about_service_1' => 'Строительно-монтажные работы',
-        'about_service_2' => 'Ремонтно-строительные работы',
-        'about_service_3' => 'Благоустройство и реконструкция зданий',
-        'about_service_4' => 'Работы по кондиционированию и вентиляции',
-        'about_service_5' => 'Отделочные работы',
-        'about_service_6' => 'Гидроизоляционные работы',
-        'about_service_7' => 'Благоустройство прилегающих территорий',
-        'about_service_8' => 'Строительство частных домов, квартир и офисов',
-        'about_service_9' => 'Комплексное выполнение ремонтно-строительных работ',
+function t($key, $replacements = []) {
+    static $strings = null;
 
-        'about_contact_us' => 'Позвоните нам',
-        'about_write_us' => 'Напишите нам',
-    );
-
-    foreach ($strings as $key => $text) {
-        pll_register_string($key, $text, 'Landing');
+    if ($strings === null) {
+        $strings = include get_template_directory() . '/lang-strings.php';
     }
 
-    return $strings;
+    if (!isset($strings[$key])) {
+        return "[[$key]]"; // для отладки
+    }
+
+    $translated = pll__($strings[$key]);
+
+    if (!empty($replacements)) {
+        foreach ($replacements as $placeholder => $value) {
+            $translated = str_replace($placeholder, $value, $translated);
+        }
+    }
+
+    return $translated;
 }
-add_action('init', 'register_strings');
+
 
 function peeling_widgets_init() {
 	register_sidebar(

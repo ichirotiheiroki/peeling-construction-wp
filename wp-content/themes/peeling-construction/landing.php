@@ -76,7 +76,7 @@ get_header();
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <p class="fw-medium text-uppercase text-primary mb-2"><?php echo pll__('О нас'); ?></p>
                     <h1 class="display-5 mb-4"><?php echo pll__('Мы Профессионалы Своего Дела'); ?></h1>
-                    <p class="mb-4"><?php echo pll__('about_paragraph'); ?></p>
+                    <p class="mb-4"><?php echo t('about_paragraph'); ?></p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="ms-4">
                             <?php
