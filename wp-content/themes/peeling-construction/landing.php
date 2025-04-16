@@ -23,7 +23,7 @@ get_header();
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">
-                                        <?php echo pll__('Благоустройство и инженерные работы'); ?>
+                                        <?php echo t('carousel_text_1'); ?>
                                     </h1>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ get_header();
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
                                     <h1 class="display-1 text-white mb-5 animated slideInRight">
-                                        <?php echo pll__('Строительно-ремонтные услуги'); ?>
+                                        <?php echo t('carousel_text_2'); ?>
                                     </h1>
                                 </div>
                             </div>
@@ -74,21 +74,21 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p class="fw-medium text-uppercase text-primary mb-2"><?php echo pll__('О нас'); ?></p>
-                    <h1 class="display-5 mb-4"><?php echo pll__('Мы Профессионалы Своего Дела'); ?></h1>
+                    <p class="fw-medium text-uppercase text-primary mb-2"><?php echo t('about_title'); ?></p>
+                    <h1 class="display-5 mb-4"><?php echo t('about_heading'); ?></h1>
                     <p class="mb-4"><?php echo t('about_paragraph'); ?></p>
                     <div class="d-flex align-items-center mb-4">
                         <div class="ms-4">
                             <?php
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Строительно-монтажные работы') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Ремонтно-строительные работы') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Благоустройство и реконструкция зданий') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Работы по кондиционированию и вентиляции') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Отделочные работы') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Гидроизоляционные работы') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Благоустройство прилегающих территорий') . '</p>';
-                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . pll__('Строительство частных домов, квартир и офисов') . '</p>';
-                            echo '<p class="mb-0"><i class="fa fa-check text-primary me-2"></i>' . pll__('Комплексное выполнение ремонтно-строительных работ') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_1') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_2') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_3') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_4') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_5') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_6') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_7') . '</p>';
+                            echo '<p><i class="fa fa-check text-primary me-2"></i>' . t('about_service_8') . '</p>';
+                            echo '<p class="mb-0"><i class="fa fa-check text-primary me-2"></i>' .t('about_service_9') . '</p>';
                             ?>
                         </div>
                     </div>
