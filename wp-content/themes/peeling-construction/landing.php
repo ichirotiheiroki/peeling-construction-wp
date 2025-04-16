@@ -127,7 +127,7 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="display-5 mb-5">Наши партнёры</h1>
+                <h1 class="display-5 mb-5"><?php echo t('partners_section_title'); ?></h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
@@ -263,7 +263,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="display-5 mb-4">Преимущества нашей компании:</h2>
+                    <h2 class="display-5 mb-4"><?php echo t('features_section_title'); ?></h2>
                     <div class="row gy-4">
                         <?php
                         $features = [];
