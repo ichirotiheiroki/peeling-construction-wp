@@ -12,13 +12,12 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Наши проекты</p>
-                <h1 class="display-5 mb-4">Проекты выполненные нашей компанией</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2"><?php echo t('projects_section_title'); ?></p>
+                <h1 class="display-5 mb-4"><?php echo t('projects_section_subtitle'); ?></h1>
             </div>
             <div class="row gy-5 gx-4">
                 <?php
 
-                // параметры по умолчанию
                 $my_posts = get_posts( array(
                     'numberposts' => -1,
                     'order' => 'ASC',
@@ -37,7 +36,7 @@ get_header();
 
                 }
 
-                wp_reset_postdata(); // сброс
+                wp_reset_postdata();
 
                 ?>
             </div>

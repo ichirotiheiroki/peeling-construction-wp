@@ -324,14 +324,13 @@ get_header();
     <!-- Project Start -->
     <div class="container-fluid bg-dark pt-5 my-5 px-0">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-            <p class="fw-medium text-uppercase text-white mb-2">Виды услуг</p>
-            <h1 class="display-5 text-white mb-5">Перечень услуг предоставляемых нашей компанией</h1>
+            <p class="fw-medium text-uppercase text-white mb-2"><?php echo t('type_of_services_title'); ?></p>
+            <h1 class="display-5 text-white mb-5"><?php echo t('type_of_services_subtitle'); ?></h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
 
             <?php
 
-            // параметры по умолчанию
             $my_posts = get_posts(array(
                 'numberposts' => -1,
                 'order' => 'ASC',
@@ -340,7 +339,7 @@ get_header();
                 'meta_key' => 'order_value',
                 'orderby' => 'meta_value_num',
                 'post_type' => 'project_types',
-                'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                'suppress_filters' => true,
             ));
 
             foreach ($my_posts as $post) {
@@ -350,7 +349,7 @@ get_header();
 
             }
 
-            wp_reset_postdata(); // сброс
+            wp_reset_postdata();
 
             ?>
 
@@ -364,13 +363,12 @@ get_header();
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Наши проекты</p>
-                <h1 class="display-5 mb-4">Проекты выполненные нашей компанией</h1>
+                <p class="fw-medium text-uppercase text-primary mb-2"><?php echo t('projects_section_title'); ?></p>
+                <h1 class="display-5 mb-4"><?php echo t('projects_section_subtitle'); ?></h1>
             </div>
             <div class="row gy-5 gx-4">
                 <?php
 
-                // параметры по умолчанию
                 $my_posts = get_posts(array(
                     'numberposts' => 4,
                     'order' => 'ASC',
@@ -379,7 +377,7 @@ get_header();
                     'meta_key' => 'order_value',
                     'orderby' => 'meta_value_num',
                     'post_type' => 'projects',
-                    'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+                    'suppress_filters' => true,
                 ));
 
                 foreach ($my_posts as $post) {
@@ -398,7 +396,7 @@ get_header();
                 ?>
             </div>
             <div class="flex justify-content-center">
-                <a class="btn btn-primary py-3 px-5" href="/projects-list">Больше проектов</a>
+                <a class="btn btn-primary py-3 px-5" href="/projects-list"><?php echo t('more_projects'); ?></a>
             </div>
         </div>
     </div>
@@ -406,85 +404,7 @@ get_header();
 
 
     <!-- Team Start -->
-    <!--  <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fw-medium text-uppercase text-primary mb-2">Our Team</p>
-                <h1 class="display-5 mb-5">Dedicated Team Members</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/team-1.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                 style="height: 90px;">
-                                <h5>Rob Miller</h5>
-                                <span class="text-primary">CEO & Founder</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/team-2.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                 style="height: 90px;">
-                                <h5>Adam Crew</h5>
-                                <span class="text-primary">Project Manager</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/team-3.jpg" alt="">
-                        <div class="d-flex">
-                            <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
-                                <i class="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div class="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                 style="height: 90px;">
-                                <h5>Peter Farel</h5>
-                                <span class="text-primary">Engineer</span>
-                                <div class="team-social">
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href=""><i
-                                            class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
+
     <!-- Team End -->
 
 

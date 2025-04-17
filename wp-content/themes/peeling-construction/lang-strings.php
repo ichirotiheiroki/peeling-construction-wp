@@ -32,6 +32,13 @@ return array(
 
     'partners_section_title' => 'Наши партнёры:',
 
+    'projects_section_title' => 'Наши проекты',
+    'projects_section_subtitle' => 'Проекты выполненные нашей компанией',
+    'more_projects' => 'Больше проектов',
+
+    'type_of_services_title' => 'Виды услуг',
+    'type_of_services_subtitle' => 'Перечень услуг предоставляемых нашей компанией',
+
     'features_section_title' => 'Преимущества нашей компании:',
 
     'features.0.title' => 'Многолетний опыт',
