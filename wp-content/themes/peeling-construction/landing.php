@@ -328,133 +328,33 @@ get_header();
             <h1 class="display-5 text-white mb-5">Перечень услуг предоставляемых нашей компанией</h1>
         </div>
         <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/2.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Шоколадная Фабрика "Гала"
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/3.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Sea Breeze “Funzkarting”
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/5.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Sea Breeze “Funzkarting”
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/4.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Детский сад № 319
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/6.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры проектов
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/7.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Рендеры проектов
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/8.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Работы по реконструкции в городе "Лачын"
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/9.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/10.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/11.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Ландшафт и экстерьеры
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/12.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Реставрация фасадов
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/13.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Монтаж и демонтаж строительных лесов
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/14.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Строительство жилых и нежилых высокоэтажных зданий
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/15.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Установка систем кондиционирования и вентиляции
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/16.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Котлованные работы
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/17.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Электрика
 
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/18.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Транспортировка
-                    </h5>
-                </div>
-            </a>
-            <a class="project-item">
-                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/img/projects/19.jpg" alt="">
-                <div class="project-title">
-                    <h5 class="text-white mb-0 z-3">Водоснабжение и канализационные системы
-                    </h5>
-                </div>
-            </a>
+            <?php
+
+            // параметры по умолчанию
+            $my_posts = get_posts(array(
+                'numberposts' => -1,
+                'order' => 'ASC',
+                'include' => array(),
+                'exclude' => array(),
+                'meta_key' => 'order_value',
+                'orderby' => 'meta_value_num',
+                'post_type' => 'project_types',
+                'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+            ));
+
+            foreach ($my_posts as $post) {
+                setup_postdata($post);
+
+                get_template_part('./project-type-card');
+
+            }
+
+            wp_reset_postdata(); // сброс
+
+            ?>
+
+
         </div>
     </div>
     <!-- Project End -->
