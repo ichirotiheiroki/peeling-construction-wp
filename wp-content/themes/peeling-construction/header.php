@@ -93,7 +93,7 @@
             <a href="/projects-list" class="nav-item nav-link"><?php echo t('projects'); ?></a>
             <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
 
-            <div class="flex px-3 "><?php
+            <div class="flex px-3 gap-2"><?php
                 if (function_exists('pll_the_languages')) {
                     pll_the_languages(array(
                         'show_flags' => 1,
