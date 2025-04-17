@@ -79,7 +79,7 @@
 
 <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
-    <a href="/#" class="navbar-brand  ">
+    <a href="<?php echo pll_home_url(); ?>#" class="navbar-brand">
         <img class="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.svg?ver=15" alt="">
         <img class="navbar-logo-mobile" src="<?php echo get_template_directory_uri(); ?>/img/logo-vector.svg?ver=15" alt="">
     </a>
@@ -88,17 +88,17 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0 align-items-center">
-            <a href="#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
-            <a href="#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
+            <a href="<?php echo pll_home_url(); ?>#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
+            <a href="<?php echo pll_home_url(); ?>#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
             <?php
             $projects_page_id = get_page_by_path('projects-list')->ID;
             $translated_url = get_permalink(pll_get_post($projects_page_id));
             ?>
             <a href="<?php echo $translated_url; ?>" class="nav-item nav-link"><?php echo t('projects'); ?></a>
+            <a href="<?php echo pll_home_url(); ?>#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
 
-            <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
-
-            <div class="flex px-3 gap-2"><?php
+            <div class="flex px-3 gap-2">
+                <?php
                 if (function_exists('pll_the_languages')) {
                     pll_the_languages(array(
                         'show_flags' => 1,
@@ -108,11 +108,12 @@
                         'raw' => 0
                     ));
                 }
-                ?></div>
-
+                ?>
+            </div>
         </div>
 
-        <a href="" class="btn btn-primary px-3 d-none d-lg-block"><?php echo t('consultation'); ?></a>
+        <a href="<?php echo pll_home_url(); ?>#contact" class="btn btn-primary px-3 d-none d-lg-block"><?php echo t('consultation'); ?></a>
     </div>
 </nav>
+
 <!-- Navbar End -->
