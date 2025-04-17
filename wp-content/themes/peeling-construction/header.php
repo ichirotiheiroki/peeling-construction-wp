@@ -88,10 +88,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0 align-items-center">
-            <a href="/#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
-            <a href="/#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
+            <a href="#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
+            <a href="#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
             <a href="/projects-list" class="nav-item nav-link"><?php echo t('projects'); ?></a>
-            <a href="/#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
+            <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
 
             <div class="flex px-3 gap-2"><?php
                 if (function_exists('pll_the_languages')) {
