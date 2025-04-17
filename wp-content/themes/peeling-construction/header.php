@@ -92,17 +92,19 @@
             <a href="#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
             <a href="/projects-list" class="nav-item nav-link"><?php echo t('projects'); ?></a>
             <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
-            <?php
-            if (function_exists('pll_the_languages')) {
-                pll_the_languages(array(
-                    'show_flags' => 1,
-                    'show_names' => 0,
-                    'hide_current' => 0,
-                    'display_names_as' => 'name',
-                    'raw' => 0
-                ));
-            }
-            ?>
+
+            <div class="flex"><?php
+                if (function_exists('pll_the_languages')) {
+                    pll_the_languages(array(
+                        'show_flags' => 1,
+                        'show_names' => 0,
+                        'hide_current' => 0,
+                        'display_names_as' => 'name',
+                        'raw' => 0
+                    ));
+                }
+                ?></div>
+
         </div>
 
         <a href="" class="btn btn-primary px-3 d-none d-lg-block"><?php echo t('consultation'); ?></a>
