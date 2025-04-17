@@ -118,13 +118,27 @@ function create_posttype() {
     register_post_type('projects',
         array(
             'labels' => array(
-                'name' => __('PROJECTS', 'your-textdomain'),
-                'singular_name' => __('PROJECT', 'your-textdomain')
+                'name' => __('PROJECTS', 'Landing'),
+                'singular_name' => __('PROJECT', 'Landing')
             ),
             'public' => true,
             'has_archive' => true,
             'publicly_queryable' => true,
             'rewrite' => array('slug' => 'projects'),
+            'show_in_rest' => true,
+            'supports' => array('title', 'editor', 'thumbnail'),
+        )
+    );
+    register_post_type('project_types',
+        array(
+            'labels' => array(
+                'name' => __('PROJECT TYPES', 'Landing'),
+                'singular_name' => __('PROJECT TYPE', 'Landing')
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'publicly_queryable' => true,
+            'rewrite' => array('slug' => 'project_types'),
             'show_in_rest' => true,
             'supports' => array('title', 'editor', 'thumbnail'),
         )
@@ -142,11 +156,13 @@ add_filter('template_include', 'projects_template');
 
 add_action('init', function() {
     add_post_type_support('projects', 'thumbnail');
+    add_post_type_support('project_types', 'thumbnail');
 });
 
 add_action('pll_init', function () {
     if (function_exists('pll_register_post_type')) {
         pll_register_post_type('projects');
+        pll_register_post_type('project_types');
     }
 });
 
