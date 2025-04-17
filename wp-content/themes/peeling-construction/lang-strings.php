@@ -6,6 +6,14 @@ return array(
     'carousel_prev' => 'Предыдущий',
     'carousel_next' => 'Следующий',
 
+    'contacts' => 'Контакты',
+    'contact_us' => 'Позвоните нам:',
+    'about_us' => 'О нас',
+    'solutions' => 'Решения',
+    'projects' => 'Проекты',
+    'consultation' => 'Получить консультацию',
+
+
     'about_title' => 'О нас',
     'about_heading' => 'Мы Профессионалы Своего Дела',
     'about_paragraph' => 'Компания Peeling Construction MMC была основана в 2018 году...',

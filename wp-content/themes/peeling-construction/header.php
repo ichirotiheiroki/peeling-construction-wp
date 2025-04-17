@@ -57,17 +57,28 @@
 <div class="container-fluid     top-bar-bg px-0">
     <div class="row g-0 d-none d-lg-flex">
         <div class="col-lg-6 ps-5 text-start">
-<!--            <div class="h-100 d-inline-flex align-items-center text-white">-->
+            <div class="h-100 d-inline-flex align-items-center text-white">
+                <?php
+                if (function_exists('pll_the_languages')) {
+                    pll_the_languages(array(
+                        'show_flags' => 1,
+                        'show_names' => 0,
+                        'hide_current' => 0,
+                        'display_names_as' => 'name',
+                        'raw' => 0
+                    ));
+                }
+                ?>
 <!--                <span>Follow Us:</span>-->
 <!--                <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>-->
 <!--                <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>-->
 <!--                <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a>-->
 <!--                <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>-->
-<!--            </div>-->
+      </div>
         </div>
         <div class="col-lg-6 text-end">
             <a href="tel:+994 55 254 44 45" class="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
-                <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i>Позвоните нам:</span>
+                <span class="fs-5 fw-bold me-2"><i class="fa fa-phone-alt me-2"></i><?php echo t('contact_us'); ?></span>
                 <span class="fs-5 fw-bold">+994 55 254 44 45
 </span>
             </a>
@@ -87,34 +98,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0 align-items-center">
-            <a href="#about" class="nav-item nav-link">О нас</a>
-            <a href="#service" class="nav-item nav-link">Решения</a>
-<!--            <div class="nav-item dropdown">-->
-<!--                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>-->
-<!--                <div class="dropdown-menu bg-light m-0">-->
-<!--                    <a href="project.html" class="dropdown-item">Projects</a>-->
-<!--                    <a href="feature.html" class="dropdown-item">Features</a>-->
-<!--                    <a href="team.html" class="dropdown-item">Our Team</a>-->
-<!--                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>-->
-<!--                    <a href="404.html" class="dropdown-item">404 Page</a>-->
-<!--                </div>-->
-<!--            </div>-->
-            <a href="#contact" class="nav-item nav-link">Контакты</a>
-<!--            --><?php //echo do_shortcode('[gtranslate]'); ?>
+            <a href="#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
+            <a href="#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
+            <a href="/projects-list" class="nav-item nav-link"><?php echo t('projects'); ?></a>
+            <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
         </div>
-        <?php
-        if (function_exists('pll_the_languages')) {
-            pll_the_languages(array(
-                'show_flags' => 1,
-                'show_names' => 0,
-                'hide_current' => 0,
-                'display_names_as' => 'name',
-                'raw' => 0
-            ));
-        }
-        ?>
 
-        <a href="" class="btn btn-primary px-3 d-none d-lg-block">Получить консультацию</a>
+        <a href="" class="btn btn-primary px-3 d-none d-lg-block"><?php echo t('consultation'); ?></a>
     </div>
 </nav>
 <!-- Navbar End -->
