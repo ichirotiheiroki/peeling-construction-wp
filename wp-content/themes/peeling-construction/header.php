@@ -95,7 +95,7 @@
             $translated_url = get_permalink(pll_get_post($projects_page_id));
             ?>
             <a href="<?php echo $translated_url; ?>" class="nav-item nav-link"><?php echo t('projects'); ?></a>
-            <a href="<?php echo pll_home_url(); ?>#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
+            <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
 
             <div class="flex px-3 gap-2">
                 <?php
