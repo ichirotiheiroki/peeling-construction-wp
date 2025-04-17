@@ -16,7 +16,7 @@
     <div class="container py-5">
         <div class="row g-5 justify-content-between">
             <div class="col-lg-6 flex flex-column col-md-6">
-                <h5 class="text-white mb-4">Наш офис</h5>
+                <h5 class="text-white mb-4"><?php echo t('our_office'); ?></h5>
                 <p class="mb-2 text-white">
                     <i class="fa fa-map-marker-alt me-3"></i>Aşıq Molla Cümə kü 44,
                     MTK Plaza mərtəbə 3
@@ -41,13 +41,13 @@
 
             <div class="col-lg-6 flex flex-column col-md-6">
 
-                <h5 class="text-white mb-4">Новостная рассылка</h5>
-                <p>Подпишитесь на наши новостные обновления</p>
+                <h5 class="text-white mb-4"><?php echo t('news_subscription_title'); ?></h5>
+                <p><?php echo t('news_subscription_subtitle'); ?></p>
                 <div class="position-relative w-100">
                     <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                           placeholder="Введите почтовый адрес">
+                           placeholder="<?php echo t('news_subscription_placeholder'); ?>" >
                     <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Отправить</button>
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><?php echo t('news_subscription_send'); ?></button>
                 </div>
             </div>
         </div>
