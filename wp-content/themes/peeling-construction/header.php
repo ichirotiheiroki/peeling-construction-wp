@@ -90,7 +90,12 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0 align-items-center">
             <a href="#about" class="nav-item nav-link"><?php echo t('about_us'); ?></a>
             <a href="#service" class="nav-item nav-link"><?php echo t('solutions'); ?></a>
-            <a href="/projects-list" class="nav-item nav-link"><?php echo t('projects'); ?></a>
+            <?php
+            $projects_page_id = get_page_by_path('projects-list')->ID;
+            $translated_url = get_permalink(pll_get_post($projects_page_id));
+            ?>
+            <a href="<?php echo $translated_url; ?>" class="nav-item nav-link"><?php echo t('projects'); ?></a>
+
             <a href="#contact" class="nav-item nav-link"><?php echo t('contacts'); ?></a>
 
             <div class="flex px-3 gap-2"><?php
